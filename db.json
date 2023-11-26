@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postUrl": "/intro",
+      "name": "조혜영"
+    },
+    {
+      "name": "조혜영",
+      "body": "댓글 등록...",
+      "postUrl": "/intro",
+      "id": 2
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "title": "next.js란 무엇인가",
+      "url": "/intro"
+    },
+    {
+      "id": 2,
+      "title": "route구조",
+      "url": "/routers"
+    },
+    {
+      "id": 3,
+      "title": "data-fetching을 알고싶다.",
+      "url": "/data-fetching"
+    },
+    {
+      "id": 4,
+      "title": "server vs client",
+      "url": "/sc"
+    }
+  ]
+}
