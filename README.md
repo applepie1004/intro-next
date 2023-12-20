@@ -17,7 +17,7 @@ bun dev
 AND json-server
 
 ```bash
-npx json-server --port 9999 --watch db.json
+npx json-server --port 9000 --watch db.json
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

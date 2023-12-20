@@ -1,6 +1,6 @@
 import { CreateCommetns } from "./CreateComments";
 export async function Comments() {
-  const resp = await fetch("http://localhost:9999/comments", {
+  const resp = await fetch(process.env.NEXT_PUBLIC_API_URL + "comments", {
     cache: "no-store",
   });
   const comments = await resp.json();

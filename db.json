@@ -11,6 +11,26 @@
       "body": "댓글 등록...",
       "postUrl": "/intro",
       "id": 2
+    },
+    {
+      "name": "조혜영",
+      "body": "댓글입니다만?",
+      "id": 3
+    },
+    {
+      "name": "제이비티",
+      "body": "오늘 세미나 조금 힘들어요",
+      "id": 4
+    },
+    {
+      "name": "이승주",
+      "body": "서버액션 무엇?",
+      "id": 5
+    },
+    {
+      "name": "배수아",
+      "body": "메뉴 구조는 클라이언트 사이드 렌더링으로 가져온 것 같은데 서버사이드는 아니지 않나?",
+      "id": 6
     }
   ],
   "links": [
@@ -33,6 +53,21 @@
       "id": 4,
       "title": "server vs client",
       "url": "/sc"
+    },
+    {
+      "id": 5,
+      "title": "Server Action",
+      "url": "/serveraction"
+    },
+    {
+      "id": 6,
+      "title": "Tailwind style",
+      "url": "/tailwind"
+    },
+    {
+      "id": 7,
+      "title": "SideBar",
+      "url": "/sidebar"
     }
   ]
 }

@@ -8,7 +8,7 @@ export function Control() {
     <div>
       <button
         type="button"
-        className="my-5 px-4 py-2 font-semibold text-sm bg-sky-500 text-white rounded-md shadow-sm opacity-100"
+        className="my-5 px-4 py-2 font-semibold text-sm bg-sky-500 text-white rounded-md shadow-sm opacity-100 hover:bg-sky-600"
         onClick={(e) => {
           visible == false ? setVisible(true) : setVisible(false);
         }}

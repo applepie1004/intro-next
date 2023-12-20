@@ -25,7 +25,7 @@ export function CreateCommetns() {
             body: JSON.stringify({ name, body }),
           };
 
-          fetch(`http://localhost:9999/comments`, options)
+          fetch(`${process.env.NEXT_PUBLIC_API_URL}comments`, options)
             .then((res) => res.json())
             .then((result) => {
               e.target.name.value = "";
